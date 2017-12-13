@@ -1,1 +1,22 @@
-/* Los estilos de tu proyecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: black;
+  padding: 30px;
+}
+
+.navbar-nav > li > a {
+  font-family: 'Raleway' sans-serif;
+  font-size: 20px;
+}
+
+.navbar-brand img {
+  padding-bottom: 0;
+  height: 28px;
+  width: auto;
+}
